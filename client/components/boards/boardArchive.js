@@ -18,6 +18,7 @@ BlazeComponent.extendComponent({
     );
     return ret;
   },
+  
 
   events() {
     return [
