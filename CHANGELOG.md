@@ -2,7 +2,7 @@
 
 Newest WeKan at these amd64 platforms:
 
-- Linux bundle
+- Windows and Linux bundle
 - Snap Candidate
 - Docker
 - Kubernetes
@@ -15,7 +15,7 @@ Fixing other platforms In Progress.
 
 [How to upgrade WeKan](https://github.com/wekan/wekan/issues/4585)
 
-# Upcoming WeKan ® release
+# v7.43 2024-04-18 WeKan ® release
 
 This release adds the following updates:
 
@@ -23,6 +23,19 @@ This release adds the following updates:
   Thanks to xet7.
 - [Updated translations Transifex URL at readme](https://github.com/wekan/wekan/commit/9838af5e5630a6ef34175e110ddfb6bfc225b40c).
   Thanks to xet7.
+- [Improve Docker files](https://github.com/wekan/wekan/pull/5377).
+  Thanks to C0rn3j.
+- Updated dependencies.
+  [Part 1](https://github.com/wekan/wekan/commit/08e2f2f2731856255e0b40eb692328424efdf9ac),
+  [Part 2](https://github.com/wekan/wekan/commit/da99e363cd72cda7d400ce65785a6650e42c72cf).
+  Thanks to developers of dependencies.
+
+and fixes the following bugs:
+
+- [Fix DEBUG environment variable check](https://github.com/wekan/wekan/pull/5380).
+  Thanks to verdel.
+- [By default, use localized long date-time format](https://github.com/wekan/wekan/pull/5381).
+  Thanks to tvogel.
 
 Thanks to above GitHub users for their contributions and translators for their translations.
 
